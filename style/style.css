@@ -1,0 +1,30 @@
+﻿.login-body {
+	width:450px;
+	left:50%;
+	margin-left:-242px;
+	text-align:center;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.ui-corner-left {
+    -webkit-border-top-left-radius:.3125em;
+    -webkit-border-bottom-left-radius:.3125em;
+    border-top-left-radius:.3125em;
+    border-bottom-left-radius:.3125em;
+}
+.ui-corner-right {
+    -webkit-border-top-right-radius:.3125em;
+    -webkit-border-bottom-right-radius:.3125em;
+    border-top-right-radius:.3125em;
+    border-bottom-right-radius:.3125em;
+}
+.ui-navbar {
+	padding: 8px 0;
+}
+.login_head {
+	margin: 16px 0;
+}
+#message {
+	margin-top:16px;
+	color:red;
+}
