@@ -9,10 +9,10 @@ $user = new User();
 // Include header
 include 'templates/header.php';
 
-// Include page or login if not found
-$action = explode("&",$_SERVER['QUERY_STRING'])[0];
-if (!empty($action) && file_exists("templates/$action.php"))
-	include "templates/$action.php";
+// Include selected template or login template if not found
+$template = explode("&",$_SERVER['QUERY_STRING'])[0];
+if (!empty($action) && file_exists("templates/$template.php"))
+	include "templates/$template.php";
 else
 	include 'templates/login.php';
 
