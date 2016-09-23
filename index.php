@@ -2,6 +2,8 @@
 
 // Include settings and classes
 require_once 'includes/include.php';
+
+// Create user object
 $user = new User();
 
 // Include header
