@@ -9,3 +9,6 @@ Actions:
   - Register (with activation mail)
   - Forgot password (with reset mail)
   - Change password
+
+Installation:
+Copy all files, setup MySQL with SQL.sql and edit includes/config.php.
